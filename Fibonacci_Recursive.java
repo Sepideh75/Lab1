@@ -1,24 +1,10 @@
-/* 
-Orignal code for recursie but when I wanted the value of a number it woulnt print 100 or 200 
- public class Fibonacci_Recursive {
-    //method
-    public static BigInteger fibonacciRecursive(int n){
-        if(n < 0){
-            System.out.println("needs to be non-negative");
-        }
-        if(n == 0){
-            return BigInteger.ZERO;
-        }
-        if(n == 1){
-            return BigInteger.ONE;
-        }
-        return fibonacciRecursive(n - 1).add(fibonacciRecursive(n - 2));
-    }
-    public static void main(String[] args) {
-        int n = 200;  // Example value for n
-        System.out.println(fibonacciRecursive(n));
-    }
- */
+ 
+//Here I am making a function to return the number intended for the number input 
+//between 0-200 using a recursive approach. I will do this by having base cases then 
+//resuse and recurse if needed to further calculate to 200(also using memerozation)
+//then return the number and have some edge cases to keep the user in the 0-200 range
+//Name: Sepideh Heidari Ahwazi 
+
 //I used biginteger and memorozation for the code below due to the code approve not being 
 //able to handle printing 100 and 200 and any big number. 
 //Big integer given at Lab 

@@ -1,3 +1,8 @@
+//Here I am making a function to return the number intended for the number input 
+//between 0-200 using a iterative approach. I will do this by having base cases then 
+//making vaiable to be used throughout to further calculate to 200 in a for loop 
+//then return the number and have some edge cases to keep the user in the 0-200 range 
+//Name: Sepideh Heidari Ahwazi 
 // Define a class to hold the Fibonacci methods
 
 import java.math.BigInteger;
