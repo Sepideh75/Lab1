@@ -5,6 +5,31 @@
 //then return the number and have some edge cases to keep the user in the 0-200 range
 //Name: Sepideh Heidari Ahwazi 
 
+//Originall code that I changed due to it not working for large numbers and took too long to calculate 
+/*import java.math.BigInteger;
+//Making a public class 
+public class Fibonacci_Recursive {
+    //method
+    public static BigInteger fibonacciRecursive(int n){
+        if(n < 0){
+            System.out.println("needs to be non-negative");
+        }
+        if(n == 0){
+            return BigInteger.ZERO;
+        }
+        if(n == 1){
+            return BigInteger.ONE;
+        }
+        return fibonacciRecursive(n - 1).add(fibonacciRecursive(n - 2));
+    }
+    public static void main(String[] args) {
+        int n = 200;  // Example value for n
+        System.out.println(fibonacciRecursive(n));
+    }
+
+}*/ 
+
+
 //I used biginteger and memorozation for the code below due to the code approve not being 
 //able to handle printing 100 and 200 and any big number. 
 //Big integer given at Lab 
